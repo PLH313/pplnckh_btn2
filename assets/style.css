@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative; /* To position the image inside this container */
+}
+
+.header {
+    position: relative; /* To allow the name content to remain in normal flow */
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute; /* Makes the image independent */
+    left: 20px; /* Adjust this to move the image further left or right */
+    top: 20px; /* Adjust to control the vertical position */
+}
+
+.name {
+    margin-left: 200px; /* Creates space for the image on the left */
+    padding-top: 20px; /* Aligns the name vertically with the image */
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section-title {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+.contact-info, .education, .skills, .projects, .activities {
+    padding: 10px 0;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
